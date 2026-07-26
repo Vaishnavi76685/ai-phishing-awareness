@@ -1,0 +1,6 @@
+{
+  "name": "AI Phishing Awareness & Detection System",
+  "description": "Comprehensive AI-powered phishing detection, URL/Email heuristic analysis, cybersecurity awareness quiz, interactive dashboard, mock login demo, and admin panel for B.Tech Cyber Security project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

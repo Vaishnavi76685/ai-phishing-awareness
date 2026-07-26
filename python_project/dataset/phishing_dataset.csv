@@ -1,0 +1,19 @@
+text,type,label
+"http://192.168.1.1/login.php",url,2
+"http://secure-login-bankofamerica.com-account.xyz/update",url,2
+"https://www.google.com/search?q=cybersecurity",url,0
+"http://bit.ly/3xY9z0a",url,1
+"http://free-crypto-giveaway-claim-now.top/binance",url,2
+"https://github.com/torvalds/linux",url,0
+"https://paypal-verify-identity-security-alert.tk/login",url,2
+"https://wikipedia.org/wiki/Phishing",url,0
+"http://10.0.0.1/admin/auth.asp",url,2
+"https://login.microsoftonline.com/",url,0
+"URGENT: Your account has been suspended! Click here to verify credentials within 24 hours.",email,2
+"Hi John, please review the attached quarterly report and let me know your thoughts.",email,0
+"Dear customer, we detected unusual login activity. Confirm your password at http://bit.ly/fakebank",email,2
+"Congratulations! You won a $1000 Amazon Gift Card. Claim immediately by entering your SSN.",email,2
+"Reminder: Team sync meeting scheduled for tomorrow at 10 AM on Google Meet.",email,0
+"SECURITY NOTICE: Your Office365 password expires today. Update now to avoid locked access.",email,2
+"Your invoice #84920 for $450 is ready for review in Google Drive.",email,0
+"WIRE TRANSFER REQUEST: Send $5,000 urgently to vendors before close of business.",email,2
