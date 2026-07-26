@@ -16,7 +16,7 @@ export const AdminPanel: React.FC = () => {
   } = useAuth();
 
   // Admin login states
-  const [adminEmail, setAdminEmail] = useState(adminCredentials.email);
+  const [adminEmail, setAdminEmail] = useState('');
   const [adminPassword, setAdminPassword] = useState('');
   const [showAdminPassword, setShowAdminPassword] = useState(false);
   const [loginError, setLoginError] = useState<string | null>(null);
@@ -147,8 +147,8 @@ export const AdminPanel: React.FC = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
               <div>
-                <span className="text-slate-500 font-medium">Admin Email: </span>
-                <span className="font-mono font-bold text-slate-900 break-all">{adminCredentials.email}</span>
+                <span className="text-slate-500 font-medium">Access Level: </span>
+                <span className="font-bold text-slate-900">Authorized Admin Account</span>
               </div>
               <div>
                 <span className="text-slate-500 font-medium">Default Password: </span>
@@ -177,7 +177,7 @@ export const AdminPanel: React.FC = () => {
                 required
                 value={adminEmail}
                 onChange={(e) => setAdminEmail(e.target.value)}
-                placeholder="vaishnavithakur7668565807@gmail.com"
+                placeholder="Enter admin email address"
                 className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-sm text-slate-900 focus:outline-none focus:border-blue-500 focus:bg-white"
               />
             </div>

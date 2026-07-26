@@ -138,7 +138,7 @@ export const AuthGateway: React.FC<AuthGatewayProps> = ({ onLoginSuccess }) => {
                   </span>
                 </div>
                 <p className="text-xs text-slate-500 mt-2 leading-relaxed">
-                  Administrator login interface restricted to email <span className="font-mono font-semibold text-slate-800">vaishnavithakur7668565807@gmail.com</span> with default password & update password option.
+                  Administrator login interface restricted to authorized admin account with default password & update password option.
                 </p>
               </div>
 
