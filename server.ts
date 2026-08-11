@@ -6,8 +6,7 @@ import { QUIZ_QUESTIONS, INITIAL_STATS } from "./src/data/phishingData.js";
 import { ScanResult, ThreatIndicator, RiskLevel, SystemLog } from "./src/types/phishing.js";
 
 const app = express();
-const PORT = 3000;
-
+const PORT = Number(process.env.PORT) || 3000;
 app.use(express.json({ limit: "10mb" }));
 
 // In-memory runtime state (seeded with realistic data)
